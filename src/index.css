@@ -649,6 +649,14 @@ footer {
     max-width: 150px;
     right: 280px;
   }
+  .product_box_3 .pc_srrow_shape {
+    max-width: 160px;
+    right: 270px;
+  }
+  .product_box_3 .pc_srrow_shape img {
+    display: block;
+
+  }
 }
 @media (max-width:767px){
   .cm_overflow, .cm_overflow body {
