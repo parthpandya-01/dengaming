@@ -35,14 +35,13 @@ img {
   max-width: 100%;
 }
 
-html body {
+html, body {
   font-family: 'Inter', sans-serif;
   font-size: 18px;
   color: #787878;
   background: #fff;
   font-weight: 400;
-  overflow-x: hidden;
-  position: relative;
+
 }
 
 .row{
@@ -635,7 +634,21 @@ footer {
   }
   .product_shape_left {
     left: -42%;
-}
+  }
+  .pc_srrow_shape{
+    max-width: 140px;
+  }
+  .product_image img {
+    max-width: 240px;
+  }
+  .product_box_2 .pc_srrow_shape {
+      right: 285px;
+      bottom: 15px;
+  }
+  .product_box_1 .pc_srrow_shape {
+    max-width: 150px;
+    right: 280px;
+  }
 }
 @media (max-width:767px){
   .cm_overflow, .cm_overflow body {
@@ -652,10 +665,10 @@ footer {
     position: relative;
     z-index: 110;
   }
-  .logo_hold{
+  /* .logo_hold{
     position: relative;
     z-index: 110;
-  }
+  } */
   .logo_hold img {
     max-width: 90px;
   }
@@ -676,7 +689,6 @@ footer {
     -ms-transition: all 0.5s ease 0s;
     -o-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
-    overflow-y: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -776,7 +788,7 @@ footer {
     right: 8px;
     width: 95px;
     height: 95px;
-    background-image: url(http://localhost:3000/Smallworld/static/media/mobile_arrow_line.624d9c53bd1d71d6d2af.svg);
+    background-image: url(./assets/images/mobile_arrow_line.svg);
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -840,14 +852,14 @@ footer {
     background-position: top center;
   }
   .message_block .container, .team_user_section .container{
-    max-width: 85%;
+    max-width: 80%;
   }
   .message_block .row>* {
     margin-bottom: 20px;
   }
   .message_box {
-    padding: 30px 40px;
-  }
+    padding: 30px 31px;
+}
   .message_block .row>*:last-child .message_desc p{
     max-width: 183px;
     margin: 0 auto;
