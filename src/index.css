@@ -218,7 +218,7 @@ header{
   position: relative;
 }
 .products_block {
-  max-width: 781px;
+  max-width: 796px;
   margin: 40px auto 0;
 }
 .products_row {
@@ -227,8 +227,17 @@ header{
   justify-content: space-between;
   position: relative;
 }
+.products_row:hover .product_content{
+    background: #F4F1FF;
+    border-color: #3D358E;
+}
 .product_content{
   max-width: 250px;
+  max-width: 265px;
+  padding: 15px;
+  border: 1px solid transparent;
+  transition: all 0.4s ease 0s;
+  border-radius: 10px;
 }
 .product_content h3 {
   font-weight: 600;
@@ -252,7 +261,7 @@ header{
   bottom: 20px;
 }
 .product_box_1 .product_content{
-  padding-top: 60px;
+  margin-top: 60px;
 }
 .product_box_2{
   align-items: center;
@@ -269,7 +278,7 @@ header{
   margin-top: 70px;
 }
 .product_box_3 .product_content{
-  padding-top: 20px;
+  margin-top: 20px;
 }
 .product_box_3 .pc_srrow_shape{
   right: 290px;
@@ -746,7 +755,7 @@ footer {
     flex-flow: column;
   }
   .product_box_1 .product_content {
-    padding-top: 0px;
+    margin-top: 0;
   }
   .product_image {
     max-width: 280px;
@@ -805,7 +814,7 @@ footer {
     right: 21px;
   }
   .product_box_3 .product_content{
-    padding-top: 0;
+    margin-top: 0;
   }
   .product_box_3 .product_image::after{
     right: 25px;
@@ -896,7 +905,7 @@ footer {
   .common_inner_banner {
     min-height: 200px;
   }
-  .team_user_section::before, .join_our_team {
+  .team_user_section::before {
     display: none;
   }
   .team_user_section{
@@ -905,6 +914,18 @@ footer {
   #error_page {
     min-height: calc(100vh - 286px);
   } 
+  .join_our_team{
+    margin-bottom: 35px;
+  }
+  .join_our_team a {
+    font-size: 16px;
+  }
+  .join_our_team a span{
+    padding: 15px 30px;
+  }
+  .join_our_team a svg{
+    max-width: 25px;
+  }
 }
 @media (max-width:450px){
   .hero_banner_section {

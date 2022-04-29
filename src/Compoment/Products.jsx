@@ -21,12 +21,14 @@ function Products(){
                     <div className="products_block">
                         <div className="products_row product_box_1">
                             <div className="product_content">
-                                <h3>Games</h3>
-                                <p>Fun innovate games</p>
-                                <span>Coming Soon...</span>
+                                <a href=''>
+                                    <h3>Games</h3>
+                                    <p>Fun innovate games</p>
+                                    <span>Coming Soon...</span>
+                                </a>
                             </div>
                             <div className="product_image">
-                                <img src={product_img_1} alt="img" />
+                                <a href=''><img src={product_img_1} alt="img" /></a>
                             </div>
                             <div className="pc_srrow_shape">
                                 <img src={arrow_shape_1} alt="img" />
@@ -34,12 +36,14 @@ function Products(){
                         </div>
                         <div className="products_row product_box_2">
                             <div className="product_image">
-                                <img src={product_img_2} alt="img" />
+                                <a href=''><img src={product_img_2} alt="img" /></a>
                             </div>
                             <div className="product_content">
-                                <h3>MarketPlace</h3>
-                                <p>NFT marketplace for user’s to manage their digital assets</p>
-                                <span>Coming Soon...</span>
+                                <a href=''>
+                                    <h3>MarketPlace</h3>
+                                    <p>NFT marketplace for user’s to manage their digital assets</p>
+                                    <span>Coming Soon...</span>
+                                </a>
                             </div>
                             <div className="pc_srrow_shape">
                                 <img src={arrow_shape_2} alt="img" />
@@ -47,12 +51,16 @@ function Products(){
                         </div>
                         <div className="products_row product_box_3">
                             <div className="product_content">
-                                <h3>Den</h3>
-                                <p>A launchpad for promising blockchain games. Build, fundraise and grow.</p>
-                                <span>Coming Soon...</span>
+                                <a href=''>
+                                    <h3>Den</h3>
+                                    <p>A launchpad for promising blockchain games. Build, fundraise and grow.</p>
+                                    <span>Coming Soon...</span>
+                                </a>
                             </div>
                             <div className="product_image">
-                                <img src={product_img_3} alt="img" />
+                                <a href=''>
+                                    <img src={product_img_3} alt="img" />
+                                </a>
                             </div>
                             <div className="pc_srrow_shape">
                                 <img src={arrow_shape_3} alt="img" />
